@@ -25,6 +25,9 @@ const Hero = () => {
           <div className="text-2xl md:text-3xl mb-6 text-blue-100 font-medium">
             Data Engineer | Analyst | AI Developer
           </div>
+          <div className="text-lg md:text-xl mb-6 text-amber-200 font-medium bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 inline-block">
+            Currently exploring new opportunities — let's connect!
+          </div>
                     <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto leading-relaxed">
             Data Analyst and AI Researcher with 5+ years of experience turning complex data into 
             insights across healthcare, insurance, and research. I build end-to-end solutions using 
