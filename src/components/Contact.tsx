@@ -7,9 +7,6 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Let's Connect</h2>
-          <div className="text-xl text-amber-600 font-semibold mb-4 bg-amber-50 rounded-lg py-3 px-6 inline-block">
-            Currently exploring new opportunities — let's connect!
-          </div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             I'm always interested in discussing data science opportunities, research collaborations, 
             or innovative projects. Let's connect and explore how we can work together.
@@ -109,6 +106,18 @@ const Contact = () => {
             >
               <Github size={24} />
             </a>
+          </div>
+        </div>
+
+        {/* Footer */}
+        <div className="border-t border-gray-200 pt-8 mt-16">
+          <div className="text-center">
+            <div className="text-xl text-amber-600 font-semibold mb-4 bg-amber-50 rounded-lg py-3 px-6 inline-block">
+              Currently exploring new opportunities — let's connect!
+            </div>
+            <p className="text-gray-600 text-sm">
+              © 2025 Manjusha Devi Sunkavalli. All rights reserved.
+            </p>
           </div>
         </div>
       </div>
