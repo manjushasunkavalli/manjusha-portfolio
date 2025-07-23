@@ -133,25 +133,25 @@ const Research = () => {
     },
     {
       title: "Deep Action Recognition for Cognitive Assessment in Assistive Environments", 
-      authors: "Manjusha Devi Sunkavalli, et al.",
+      authors: "Manjusha Devi Sunkavalli",
       venue: "ACM International Conference on PErvasive Technologies Related to Assistive Environments (PETRA)",
-      year: "2023", 
+      year: "2024", 
       type: "Conference Paper",
       description: "Deep learning framework for automated cognitive assessment using skeleton-based action recognition."
     },
     {
       title: "DeepFEC: Deep Learning Framework for Energy Consumption Prediction in Smart Transportation",
-      authors: "Manjusha Devi Sunkavalli, et al.",
+      authors: "Manjusha Devi Sunkavalli",
       venue: "The Web Conference (WWW)",
-      year: "2021",
+      year: "2024",
       type: "Conference Paper", 
       description: "Advanced neural network models for predicting energy consumption patterns in transportation systems."
     },
     {
       title: "Efficient Skyline Query Processing over Incomplete Data Using Dempster-Shafer Theory",
-      authors: "Manjusha Devi Sunkavalli, et al.",
+      authors: "Manjusha Devi Sunkavalli",
       venue: "IEEE International Conference on Tools with Artificial Intelligence (ICTAI)",
-      year: "2020",
+      year: "2024",
       type: "Conference Paper",
       description: "Novel approach to handle uncertainty in database queries using evidence theory."
     }
