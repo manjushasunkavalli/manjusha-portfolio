@@ -66,7 +66,7 @@ const Contact = () => {
                 Get a comprehensive overview of my experience, skills, and achievements in data science and AI research.
               </p>
               <a
-                href="https://drive.google.com/file/d/1zW6j871GSVFH7myXHFqvKD8Eu0rBkghT/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1NXNpQXMQIl07sKleZf3GVLmO36LPSoCH/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors duration-300 flex items-center gap-2"
