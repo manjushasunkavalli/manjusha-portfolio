@@ -251,7 +251,7 @@ export default Research;*/
 import React from 'react';
 import { BookOpen, Users, Award, Calendar, ExternalLink, FileText, Lightbulb, Globe } from 'lucide-react';
 
-const ResearchPortfolio = () => {
+const Research = () => {
   return (
     <section id="research" className="py-20 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
