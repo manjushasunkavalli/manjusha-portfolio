@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, Users, Award, Calendar, ExternalLink, FileText, Lightbulb, Globe, Brain, Database, Activity, Zap } from 'lucide-react';
+import { BookOpen, Users, Calendar, Globe, Brain, Database, Activity, Zap } from 'lucide-react';
 
 const Research = () => {
   const researchAreas = [
@@ -98,65 +98,6 @@ const Research = () => {
     }
   ];
 
-  const collaborations = [
-    {
-      institution: "University of New Haven",
-      department: "Computer Science & Engineering",
-      role: "AI Research Assistant & Teaching Assistant",
-      duration: "2024",
-      focus: "AI/ML Research, NLP, Computer Vision, Cognitive Assessment Technologies"
-    },
-    {
-      institution: "Accenture Research Labs",
-      department: "Healthcare Analytics Division", 
-      role: "Senior Data Analyst & Research Collaborator",
-      duration: "2021 - 2024",
-      focus: "Healthcare Cost Optimization, Risk Analytics, Predictive Modeling"
-    },
-    {
-      institution: "Downtown Evening Soup Kitchen",
-      department: "Data Analytics & Operations",
-      role: "Data Analyst & Research Contributor",
-      duration: "2025",
-      focus: "Community Impact Analysis, Program Effectiveness, Operational Analytics"
-    }
-  ];
-
-  const keyPublications = [
-    {
-      title: "Res-ViT: Residual Vision Transformers for Multimodal Medical Image Synthesis",
-      authors: "Manjusha Devi Sunkavalli",
-      venue: "IEEE International Conference on Tools with Artificial Intelligence (ICTAI)",
-      year: "2024",
-      type: "Conference Paper",
-      description: "Novel approach combining residual connections with Vision Transformers for medical image synthesis and cognitive assessment."
-    },
-    {
-      title: "Deep Action Recognition for Cognitive Assessment in Assistive Environments", 
-      authors: "Manjusha Devi Sunkavalli",
-      venue: "ACM International Conference on PErvasive Technologies Related to Assistive Environments (PETRA)",
-      year: "2024", 
-      type: "Conference Paper",
-      description: "Deep learning framework for automated cognitive assessment using skeleton-based action recognition."
-    },
-    {
-      title: "DeepFEC: Deep Learning Framework for Energy Consumption Prediction in Smart Transportation",
-      authors: "Manjusha Devi Sunkavalli",
-      venue: "The Web Conference (WWW)",
-      year: "2024",
-      type: "Conference Paper", 
-      description: "Advanced neural network models for predicting energy consumption patterns in transportation systems."
-    },
-    {
-      title: "Efficient Skyline Query Processing over Incomplete Data Using Dempster-Shafer Theory",
-      authors: "Manjusha Devi Sunkavalli",
-      venue: "IEEE International Conference on Tools with Artificial Intelligence (ICTAI)",
-      year: "2024",
-      type: "Conference Paper",
-      description: "Novel approach to handle uncertainty in database queries using evidence theory."
-    }
-  ];
-
   return (
     <section id="research" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -195,69 +136,85 @@ const Research = () => {
           </div>
         </div>
 
-        {/* Key Publications */}
+        {/* Conferences */}
         <div className="mb-16">
-          <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Featured Publications</h3>
-          <div className="grid md:grid-cols-2 gap-6">
-            {keyPublications.map((pub, index) => (
-              <div key={index} className="bg-white rounded-xl p-6 shadow-lg">
-                <div className="flex justify-between items-start mb-3">
-                  <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
-                    {pub.type}
-                  </span>
-                  <span className="text-gray-500 text-sm">{pub.year}</span>
-                </div>
-                <h4 className="text-lg font-bold text-gray-900 mb-2">{pub.title}</h4>
-                <p className="text-blue-600 font-medium text-sm mb-2">{pub.authors}</p>
-                <p className="text-gray-600 text-sm mb-3 flex items-center gap-1">
-                  <BookOpen size={14} />
-                  {pub.venue}
-                </p>
-                <p className="text-gray-700 text-sm leading-relaxed">{pub.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Research Collaborations */}
-        <div className="bg-gradient-to-r from-blue-600 to-teal-600 rounded-xl p-8 text-white">
-          <h3 className="text-2xl font-bold mb-8 text-center">Research Collaborations</h3>
+          <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Conference Presentations</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {collaborations.map((collab, index) => (
-              <div key={index} className="bg-white/10 rounded-lg p-6">
-                <h4 className="text-lg font-bold mb-2">{collab.institution}</h4>
-                <p className="text-blue-100 font-medium mb-2">{collab.department}</p>
-                <div className="text-sm text-blue-200 mb-3">
-                  <p className="mb-1">{collab.role}</p>
-                  <p>{collab.duration}</p>
+            {conferences.map((conf, index) => (
+              <div key={index} className="bg-white rounded-xl p-6 shadow-lg">
+                <div className="mb-4">
+                  <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
+                    {conf.role}
+                  </span>
                 </div>
-                <p className="text-sm">{collab.focus}</p>
+                <h4 className="text-lg font-bold text-gray-900 mb-2">{conf.name}</h4>
+                <div className="text-sm text-gray-600 mb-3">
+                  <p className="flex items-center gap-1 mb-1">
+                    <Calendar size={14} />
+                    {conf.year} • {conf.location}
+                  </p>
+                </div>
+                <p className="text-gray-700 font-medium">{conf.presentation}</p>
               </div>
             ))}
           </div>
         </div>
 
-        {/* Research Impact */}
-        <div className="mt-16 text-center">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div className="bg-white rounded-xl p-6 shadow-lg">
-              <div className="text-3xl font-bold text-blue-600 mb-2">20+</div>
-              <div className="text-gray-600">Publications</div>
-            </div>
-            <div className="bg-white rounded-xl p-6 shadow-lg">
-              <div className="text-3xl font-bold text-teal-600 mb-2">4</div>
-              <div className="text-gray-600">Research Areas</div>
-            </div>
-            <div className="bg-white rounded-xl p-6 shadow-lg">
-              <div className="text-3xl font-bold text-green-600 mb-2">15+</div>
-              <div className="text-gray-600">Conferences</div>
-            </div>
-            <div className="bg-white rounded-xl p-6 shadow-lg">
-              <div className="text-3xl font-bold text-purple-600 mb-2">3</div>
-              <div className="text-gray-600">Institutions</div>
+        {/* Intellisys Lab Research Portal */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Intellisys Lab Research Portal</h3>
+          <div className="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-xl p-8 text-white">
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div>
+                <div className="flex items-center gap-3 mb-4">
+                  <Globe className="w-8 h-8" />
+                  <h4 className="text-2xl font-bold">Intellisys Lab Website</h4>
+                </div>
+                <p className="text-indigo-100 mb-6 leading-relaxed">
+                  Designed and developed a comprehensive research portal for the Intelligent Systems Laboratory, 
+                  showcasing cutting-edge research in AI, machine learning, and data science. The website serves 
+                  as a central hub for research publications, project showcases, and academic collaborations.
+                </p>
+                <div className="space-y-3">
+                  <div className="flex items-center gap-2">
+                    <Zap className="w-5 h-5 text-yellow-300" />
+                    <span>Interactive research project galleries</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Brain className="w-5 h-5 text-yellow-300" />
+                    <span>AI/ML research publication database</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Users className="w-5 h-5 text-yellow-300" />
+                    <span>Faculty and student researcher profiles</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Database className="w-5 h-5 text-yellow-300" />
+                    <span>Research data visualization tools</span>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-white/10 rounded-lg p-6">
+                <h5 className="text-xl font-bold mb-4">Technical Implementation</h5>
+                <div className="space-y-3">
+                  <div className="flex justify-between">
+                    <span className="text-indigo-200">Frontend:</span>
+                    <span className="font-medium">HTML, Bootstrap 5, Custom CSS</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-indigo-200">Features:</span>
+                    <span className="font-medium">Multi-page navigation, project carousel, responsive layout</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-indigo-200">Deployment:</span>
+                    <span className="font-medium">Static hosting (GitHub Pages)</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );
