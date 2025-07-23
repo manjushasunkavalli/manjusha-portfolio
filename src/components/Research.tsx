@@ -125,9 +125,9 @@ const Research = () => {
   const keyPublications = [
     {
       title: "Res-ViT: Residual Vision Transformers for Multimodal Medical Image Synthesis",
-      authors: "Manjusha Devi Sunkavalli, et al.",
+      authors: "Manjusha Devi Sunkavalli",
       venue: "IEEE International Conference on Tools with Artificial Intelligence (ICTAI)",
-      year: "2023",
+      year: "2024",
       type: "Conference Paper",
       description: "Novel approach combining residual connections with Vision Transformers for medical image synthesis and cognitive assessment."
     },
