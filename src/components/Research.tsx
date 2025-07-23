@@ -345,28 +345,6 @@ const ResearchPortfolio = () => {
             </li>
           </ul>
         </div>
-
-        {/* Collaborations */}
-        <div className="mt-16 bg-gradient-to-r from-blue-600 to-teal-600 text-white p-8 rounded-xl shadow-lg">
-          <h3 className="text-2xl font-bold mb-6 text-center">🤝 Research Collaborations</h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-sm">
-            <div>
-              <h4 className="font-bold">University of New Haven</h4>
-              <p>Research Assistant (2024–Present)</p>
-              <p className="text-blue-100">AI/ML, NLP, Computer Vision</p>
-            </div>
-            <div>
-              <h4 className="font-bold">Accenture Research Labs</h4>
-              <p>Collaborator (2023–2024)</p>
-              <p className="text-blue-100">Healthcare Cost Optimization, Risk Analytics</p>
-            </div>
-            <div>
-              <h4 className="font-bold">Downtown Evening Soup Kitchen</h4>
-              <p>Research Analyst (2025)</p>
-              <p className="text-blue-100">Community Impact, Program Effectiveness</p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
