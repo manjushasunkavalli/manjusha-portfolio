@@ -1,5 +1,5 @@
 import React from 'react';
-import { Globe, Zap, Users, Brain, Database } from 'lucide-react';
+import { Globe, Code, ExternalLink, Zap, Users, Brain, Database } from 'lucide-react';
 
 const LabWebsite = () => {
   return (
@@ -66,6 +66,19 @@ const LabWebsite = () => {
                 <span>Smart Traffic Forecasting & Energy Optimization</span>
               </div>
             </div>
+          </div>
+
+          {/* Optional Link */}
+          <div className="mt-8">
+            <a
+              href="https://your-github-or-live-link.com"
+              className="inline-flex items-center px-4 py-2 bg-indigo-600 text-white rounded-md font-medium hover:bg-indigo-700 transition"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <ExternalLink className="mr-2 w-4 h-4" />
+              View Live Project
+            </a>
           </div>
         </div>
       </div>
