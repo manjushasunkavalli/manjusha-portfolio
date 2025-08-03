@@ -43,7 +43,7 @@ const Experience = () => {
         "Provided code reviews and support on assignments using PyTorch, TensorFlow, and Scikit-learn",
         "Led tutorials on MLOps best practices using AWS and Python tooling"
       ],
-      technologies: ["Python", "PyTorch", "TensorFlow", "Scikit-learn", "NLP", "AWS", "Teaching"]
+      technologies: ["Python", "PyTorch", "TensorFlow", "Scikit-learn", "NLP", "Azure","AWS", "Teaching"]
     },
     {
       title: "Senior Data Analyst (Client: Cigna)",
@@ -57,7 +57,7 @@ const Experience = () => {
         "Developed statistical models using R and Python for predictive healthcare analytics",
         "Automated ETL workflows using SSIS and Python, reducing manual processing time by 60%"
       ],
-      technologies: ["Informatica", "SQL", "Power BI", "Python", "R", "SSIS", "Healthcare Analytics", "Statistical Modeling"]
+      technologies: ["Java", "Informatica", "Azure", "SQL", "Power BI", "Python", "R", "SSIS", "Healthcare Analytics", "Statistical Modeling"]
     },
     {
       title: "Data Analyst (Client: Zurich Farmers Insurance Group)",
@@ -71,7 +71,7 @@ const Experience = () => {
         "Automated ETL pipelines and regulatory reporting processes using Python and SSIS",
         "Conducted advanced statistical analyses for risk assessment and pricing optimization"
       ],
-      technologies: ["Python", "SQL", "Tableau", "Informatica", "Power BI", "SSIS", "Risk Analysis", "Statistical Modeling"]
+      technologies: ["Python", "SQL", "Tableau", "Informatica", "Power BI", "SSIS", "Risk Analysis", "Statistical Modeling", "Java"]
     }
   ];
 
