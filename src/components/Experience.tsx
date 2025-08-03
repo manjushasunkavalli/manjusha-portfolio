@@ -15,7 +15,7 @@ const Experience = () => {
         "Developed data quality frameworks and validation processes for donor and program data",
         "Created automated reporting systems for program effectiveness and impact measurement"
       ],
-      technologies: ["Python", "SQL", "AWS", "Power BI", "Data Mapping", "ETL Validation", "Campaign Analysis"]
+      technologies: ["Java", "Python", "SQL","Azure", "AWS", "Power BI", "Data Mapping", "ETL Validation", "Campaign Analysis"]
     },
     {
       title: "AI Research Assistant",
