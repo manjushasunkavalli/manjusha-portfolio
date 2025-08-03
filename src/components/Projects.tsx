@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: "Healthcare Cost Optimization Dashboard",
       description: "Built comprehensive Tableau dashboards for healthcare analytics focusing on cost containment and risk stratification. Integrated SQL pipelines with statistical models using R and Python.",
-      technologies: ["Power BI", "SQL", "Python", "R", "Healthcare Analytics"],
+      technologies: ["Java", "Power BI", "SQL", "Python", "R", "Healthcare Analytics"],
       icon: <Activity className="w-8 h-8 text-blue-600" />,
       category: "Healthcare Analytics",
       company: "Accenture (Client: Cigna)"
