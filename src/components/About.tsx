@@ -6,7 +6,7 @@ const About = () => {
     {
       icon: <BarChart3 className="w-8 h-8 text-blue-600" />,
       title: "Data Analysis & ETL",
-      description: "Expert in building SQL pipelines, ETL workflows using Informatica PowerCenter, SSIS, and Python automation"
+      description: "Expert in building SQL pipelines, ETL workflows using Informatica PowerCenter, SSIS, Java and Python automation"
     },
     {
       icon: <Brain className="w-8 h-8 text-teal-600" />,
