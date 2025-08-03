@@ -28,7 +28,7 @@ const Hero = () => {
                     <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto leading-relaxed">
             Data Analyst and AI Researcher with 5+ years of experience turning complex data into 
             insights across healthcare, insurance, and research. I build end-to-end solutions using 
-            Python, SQL, Power BI, and AWS—designing ETL pipelines, developing ML models, and 
+            Python, Java, SQL, Power BI,Azure and AWS—designing ETL pipelines, developing ML models, and 
             creating dashboards that support smart, data-driven decisions.
           </p>
 
