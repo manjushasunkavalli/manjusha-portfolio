@@ -77,7 +77,7 @@ const Experience = () => {
       title: "Data Analyst (Client: Zurich Farmers Insurance Group)",
       company: "Accenture",
       location: "Bangalore, India",
-      period: "2021 - 2023",
+      period: "2021 - 2022",
       type: "Insurance Analytics",
       description: [
         "Built comprehensive risk profiling tools and statistical analysis models for insurance products",
