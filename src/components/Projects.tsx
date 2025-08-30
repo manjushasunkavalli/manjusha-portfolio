@@ -10,7 +10,7 @@ const Projects = () => {
       icon: <Activity className="w-8 h-8 text-blue-600" />,
       category: "Healthcare Analytics",
       company: "Accenture (Client: Cigna)"
-    }
+    },
     {
   title: "IoT Data Engineering in Manufacturing",
   description: "Designed and optimized SQL queries and ETL workflows for integrating IoT sensor and financial data. Delivered Power BI dashboards to provide supply chain and operational insights, improving reporting efficiency and decision-making.",
@@ -18,7 +18,7 @@ const Projects = () => {
   icon: <Database className="w-8 h-8 text-blue-600" />,
   category: "Manufacturing & IoT Data Engineering",
   company: "Accenture (Client: Honeywell)"
-}
+},
     {
       title: "NLP Text Classifier using BERT",
       description: "Developed transformer-based models for text classification using BERT and GPT architectures. Implemented model interpretability using SHAP and LIME for research purposes.",
