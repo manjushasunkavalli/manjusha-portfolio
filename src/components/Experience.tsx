@@ -60,6 +60,20 @@ const Experience = () => {
       technologies: ["Java", "Informatica", "Azure", "SQL", "Power BI", "Python", "R", "SSIS", "Healthcare Analytics", "Statistical Modeling"]
     },
     {
+  title: "Senior Data Engineer (Client: Honeywell)",
+  company: "Accenture",
+  location: "Bangalore, India",
+  period: "2022 - 2023",
+  type: "Manufacturing & IoT Data Engineering",
+  description: [
+    "Designed and optimized SQL queries, stored procedures, and ETL workflows for IoT sensor and financial data integration",
+    "Built and maintained enterprise data warehouse solutions using SQL Server and PostgreSQL",
+    "Improved query performance and reduced execution times by 30% through indexing and optimization techniques",
+    "Developed Power BI dashboards to deliver supply chain and operational insights for decision-making"
+  ],
+  technologies: ["SQL Server", "PostgreSQL", "ETL", "Power BI", "IoT Analytics", "Data Warehousing", "Optimization", "BI Dashboards"]
+},
+    {
       title: "Data Analyst (Client: Zurich Farmers Insurance Group)",
       company: "Accenture",
       location: "Bangalore, India",
