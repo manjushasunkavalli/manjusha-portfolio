@@ -243,19 +243,14 @@ const PacmanAI = () => {
         </div>
 
         {/* Gameplay Videos (Google Drive) */}
-        {/* HOW TO USE:
-            1) In Google Drive -> Get link -> Anyone with the link (Viewer).
-            2) Copy the link like: https://drive.google.com/file/d/FILE_ID/view?usp=sharing
-            3) Replace `/view?...` with `/preview` below.
-        */}
         <div className="mb-16">
           <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">Gameplay Videos</h3>
 
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { url: "https://drive.google.com/file/d/FILE_ID_1/preview", caption: "A* Pathfinding Demo" },
-              { url: "https://drive.google.com/file/d/FILE_ID_2/preview", caption: "Minimax vs Ghosts" },
-              { url: "https://drive.google.com/file/d/FILE_ID_3/preview", caption: "Q-Learning Agent" },
+              { url: "https://drive.google.com/file/d/1W06LWEic_xuaZARmZf-jfz-xJrpLnd-6/preview", caption: "A* & Search Algorithms" },
+              { url: "https://drive.google.com/file/d/1Fmc5a43sFGgb4YsZ_3ifRzkFmuPsExNU/preview", caption: "Reinforcement Learning" },
+              { url: "https://drive.google.com/file/d/1S4_zDYv00Zk2R94knLJiB88gcQXycB0w/preview", caption: "Multi-Agent Systems" },
             ].map((v, i) => (
               <figure key={i} className="bg-white rounded-2xl shadow-xl overflow-hidden">
                 <div className="aspect-video bg-gray-100">
