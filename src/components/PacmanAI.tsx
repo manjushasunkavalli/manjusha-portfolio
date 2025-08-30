@@ -188,26 +188,6 @@ const PacmanAI = () => {
           </div>
         </div>
 
-        {/* Project Components */}
-        <div className="mb-16">
-          <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">Project Components</h3>
-          <div className="grid md:grid-cols-2 gap-8">
-            {projectHighlights.map((component, index) => (
-              <div key={index} className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
-                <h4 className="text-xl font-bold text-gray-900 mb-3">{component.title}</h4>
-                <p className="text-gray-600 mb-4 leading-relaxed">{component.description}</p>
-                <div className="flex flex-wrap gap-2">
-                  {component.technologies.map((tech, i) => (
-                    <span key={i} className="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-full text-sm font-medium">
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
         {/* Technical Implementation */}
         <div className="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl p-8 text-white mb-16">
           <div className="text-center mb-8">
@@ -259,6 +239,36 @@ const PacmanAI = () => {
                 <li>• Value Function Approximation</li>
               </ul>
             </div>
+          </div>
+        </div>
+
+        {/* Gameplay Videos (Google Drive) */}
+        {/* HOW TO USE:
+            1) In Google Drive -> Get link -> Anyone with the link (Viewer).
+            2) Copy the link like: https://drive.google.com/file/d/FILE_ID/view?usp=sharing
+            3) Replace `/view?...` with `/preview` below.
+        */}
+        <div className="mb-16">
+          <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">Gameplay Videos</h3>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { url: "https://drive.google.com/file/d/FILE_ID_1/preview", caption: "A* Pathfinding Demo" },
+              { url: "https://drive.google.com/file/d/FILE_ID_2/preview", caption: "Minimax vs Ghosts" },
+              { url: "https://drive.google.com/file/d/FILE_ID_3/preview", caption: "Q-Learning Agent" },
+            ].map((v, i) => (
+              <figure key={i} className="bg-white rounded-2xl shadow-xl overflow-hidden">
+                <div className="aspect-video bg-gray-100">
+                  <iframe
+                    src={v.url}
+                    title={v.caption}
+                    allow="autoplay"
+                    className="w-full h-full"
+                  />
+                </div>
+                <figcaption className="px-4 py-3 text-sm text-gray-700">{v.caption}</figcaption>
+              </figure>
+            ))}
           </div>
         </div>
 
