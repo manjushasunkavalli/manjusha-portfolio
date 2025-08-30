@@ -31,7 +31,7 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">About Me</h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-           I'm a results-driven Data Analyst and AI Researcher with a strong foundation in data warehousing, ETL processes, statistical modeling, and machine learning. I've worked across domains—from healthcare analytics for Cigna and Zurich Farmers Insurance Group through Accenture, to cutting-edge AI research at the University of New Haven.
+           I'm a results-driven Data Analyst and AI Researcher with a strong foundation in data warehousing, ETL processes, statistical modeling, and machine learning. I've worked across domains—from healthcare analytics for Cigna and Zurich Farmers Insurance Group manufacturing & IoT data engineering for Honeywell through Accenture, to cutting-edge AI research at the University of New Haven.
           </p>
         </div>
 
@@ -44,9 +44,7 @@ const About = () => {
               fine-tuning transformer models, I bridge the gap between raw data and business value.
             </p>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              At Accenture, I worked on major client engagements including Cigna and Zurich Farmers Insurance Group, where I 
-              delivered data-driven solutions in healthcare analytics, claims optimization, and risk stratification. 
-              My work involved leveraging tools like Informatica, Power BI, and advanced machine learning models.
+              At Accenture, I worked on major client engagements including Cigna and Zurich Farmers Insurance Group, where I delivered data-driven solutions in healthcare analytics, claims optimization, and risk stratification, and Honeywell, where I focused on manufacturing and IoT data engineering. My work involved leveraging tools like Informatica, Power BI, and advanced machine learning models.
             </p>
             <p className="text-gray-600 mb-6 leading-relaxed">
               Beyond consulting, I contributed to AI and NLP research at the University of New Haven and 
