@@ -74,6 +74,14 @@ const Projects = () => {
       icon: <Database className="w-8 h-8 text-pink-600" />,
       category: "IT Operations",
       company: "Accenture (Client: Zurich Farmers Insurance Group)"
+    },
+    {
+      title: "Pacman AI Agent with Search Algorithms",
+      description: "Implemented intelligent Pacman agents using various AI search algorithms including A*, minimax, and expectimax. Developed multi-agent systems with adversarial search and reinforcement learning for optimal game strategy.",
+      technologies: ["Python", "AI Search Algorithms", "A*", "Minimax", "Expectimax", "Multi-Agent Systems", "Reinforcement Learning"],
+      icon: <Brain className="w-8 h-8 text-orange-600" />,
+      category: "AI Research",
+      company: "University of New Haven"
     }
   ];
 
